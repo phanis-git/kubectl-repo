@@ -7,5 +7,5 @@ managedNodeGroups:
 - name: roboshop-nodes
   instanceTypes: ["t3.micro","t3.medium","t3.small"]
   spot: true
-  # desiredCapacity: 2
-  # availabilityZones: ["us-east-1a", "us-east-1b"]
+  desiredCapacity: 2
+  availabilityZones: ["us-east-1a", "us-east-1b"]
